@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "JK Productivity",
+  "description": "Focus on what's important and get work done.",
+  "version" : "1.0.0",
+  "icons" : {"128": "icon.jpeg"},
+  "action": {
+      "default_icon": "icon.jpeg",
+      "default_popup": "./popup.html"
+  },
+  "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"]
+      }
+    ],
+  "permissions": ["activeTab"],
+  "content_security_policy": {
+    "script-src": ["self"],
+    "object-src": ["self"]
+  }
+}
