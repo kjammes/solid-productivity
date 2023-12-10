@@ -37,7 +37,7 @@ const generateSTYLING = () => {
 };
 
 const blockedHosts = [
-  "www.youtube.com", "www.facebook.com", "www.netflix.com", "www.tiktok.com",
+  "www.facebook.com", "www.netflix.com", "www.tiktok.com",
   "www.discord.com", "www.instagram.com", "web.whatsapp.com", "www.linkedin.com",
   "www.twitter.com", "www.reddit.com"
 ]
