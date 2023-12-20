@@ -16,8 +16,8 @@ const generateStyle = () => {
 
 const blockedHosts = [
   "www.facebook.com", "www.netflix.com", "www.tiktok.com",
-  "www.discord.com", "www.instagram.com", "web.whatsapp.com", "www.linkedin.com",
-  "www.twitter.com", "www.reddit.com"
+  "www.discord.com", "www.instagram.com", "web.whatsapp.com",
+  "www.twitter.com", "twitter.com"
 ]
 if (
   blockedHosts.includes(window.location.hostname)
